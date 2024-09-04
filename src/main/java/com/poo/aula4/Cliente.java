@@ -1,6 +1,6 @@
 package com.poo.aula4;
 
-public class ClientePessoaFisica {
+public class Cliente {
 	
     int id;
     String  nome;
@@ -24,7 +24,6 @@ public class ClientePessoaFisica {
             System.out.println(this.telefone);
 
             this.endereco.imprimeEndereco();
-            this.conta.imprimeConta();
 
         //o this retorna para quem chama, se o cliente1 chama
         //ele imprime os dados do cliente1, se for o
